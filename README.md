@@ -66,13 +66,11 @@ We recommend using the model not for final classification but as a **pre-filteri
 ## 📁 Repository Structure
 
 ```Blue_blobs_GenAI/
-  ├── data/ # Augmented images
-  ├── models/ # Trained models (.keras via Git LFS)
-  ├── notebooks/ # Jupyter notebooks for training/evaluation
-  ├── output/ # Metrics, plots, and saved histories
-  ├── scripts/ # Script-based training interface
+  ├── Data augmentation/ # Augmented images script
+  ├── model backend/ # .py files used in fine tuning, evaluation and vizualization of the models
+  ├── output/Evaluations and vizuals # Metrics, plots, and saved histories of training, fine tuning
+  ├── output/Final models #  All keras files of the best models found 
   ├── README.md # Project overview
-  └── requirements.txt # Python dependencies
 ```
 
 
