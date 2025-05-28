@@ -4,6 +4,7 @@
 *.png
 *.pth
 *.pyc
+
 # Local .terraform directories
 .terraform/
 
